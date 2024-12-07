@@ -1,0 +1,145 @@
+/* Defining color scheme and other variables */
+:root {
+  --primary-color: #18314f;     /* Prussian Blue */
+  --secondary-color: #388659;   /* Sea Green */
+  --accent1-color: #d5f2e3;     /* Honey Dew */
+  --accent2-color: #01fdf6;     /* Fluorescent Cyan */
+  --text-color: #000000;  
+  --heading-color: #ffffff;     /* White heading color */
+}
+
+/* General body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--accent1-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+header .logo {
+  max-width: 200px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: var(--heading-color-color);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--accent2-color);
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: var(--heading-color);
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 100;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+article {
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  transform: translateX(-10%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: var(--text-color);
+  width: 20%;
+}
+
+article .staff-img {
+  float: right;
+  margin-left: 0.5px;
+  margin-bottom: 0.5px;
+  width: 110px;
+  max-height: 400px;
+  padding: 1px
+
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  color: var(--primary-color);
+}
+
+section h2 .adventures-img {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow images to wrap to the next line if necessary */
+  justify-content: space-around; /* Distribute images evenly */
+  gap: 50px; /* Space between images */
+  margin: 70px auto; /* Center the images horizontally with margin */
+}
+
+.adventures-img {
+  width: 19%; /* Set the image width to 30% of the container */
+  height: auto; /* Maintain aspect ratio of images */
+  max-height: 200px; /* Optional: Set a max height for images */
+  object-fit: cover; /* Ensure images cover the space proportionally */
+  border-radius: 20px; /* Optional: Rounded corners for a cleaner look */
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--heading-color);
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  margin: 0 10px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
+
+/* Remove underline from social media links */
+footer a img {
+  text-decoration: none;
+}
