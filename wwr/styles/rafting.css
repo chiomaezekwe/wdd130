@@ -250,3 +250,102 @@ footer img {
 footer div:hover {
   opacity: 0.8;
 }
+
+
+/* Contact Us Page*/
+
+#contact-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contactus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: var(--text-color);
+  font-size: 1.1em;
+  padding-left: 30px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 30px;
+
+  background-color: var(--heading-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.team-member {
+  background-color: var(--heading-color);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  width: 250px;
+}
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  color: var(--secondary-color);
+  font-size: 1.5em;
+}
+.team-member p {
+  color: var(--text-color);
+  font-size: 1em;
+}
+
+.contact-info, .form-section {
+  margin-bottom: 20px;
+}
+.contact-info p {
+  margin: 10px 10px;
+}
+
+.contact-form textarea {
+  width: 98%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+fieldset input {
+  padding: 10px;
+  width: 98%;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.contact-form button {
+  background-color: var(--accent2-color);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border: 1px solid var(--text-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: var(--secondary-color);
+  color: var(--accent2-color);
+  opacity: 0.8;
+}
+
+#maps {
+  position: relative;
+  align-self: center;
+}
