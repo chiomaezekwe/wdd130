@@ -209,8 +209,8 @@ footer p {
   margin: 10px 0;
   justify-content: center;
   text-align: center;
-  color: var(--accent1-color);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  color: var(--heading-color);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.12);
   font-size: 20px;
 }
 
@@ -219,7 +219,15 @@ footer div {
   color: var(--accent1-color);
 }
 #copyright {
-  width: 60%;
+  width: 80%;
+}
+
+#copyright a {
+  text-decoration: none;
+  margin-right: 90px;
+}
+#copyright p {
+  display: inline-block;
 }
 
 #copyright p:hover {
@@ -229,6 +237,7 @@ footer div {
 #socials {
   align-content: center;
 }
+
 #socials .sociallinks {
   display: flex;
   flex-direction: row;
